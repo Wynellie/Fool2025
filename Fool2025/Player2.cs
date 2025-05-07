@@ -20,7 +20,7 @@ namespace CardFool
         public double rankK = 0.255; //меняем в диапазоне от 0.4 до 3   1 - дефолт
         private double rankKLimit = 2;
 
-        public double pairK = 23; // меняем в диапазоне от 5 до 20   13
+        public double pairK = 25; // меняем в диапазоне от 5 до 20   13
         private double pairKLimit = 19.5;
 
         public double newCardK = 11.5; // меняем в диапазоне от 2 до 6   4
@@ -113,7 +113,7 @@ namespace CardFool
 
 
 
-                if (!pairBeaten)  // пытаемся отбиться если не получилось без козырей
+                if (!pairBeaten)  // пытаемся отбиться если не получилось без козыре
                 {
                     for (int j = 0; j < trumpsInHand.Count; j++)
                     {
